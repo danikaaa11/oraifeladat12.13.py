@@ -3,7 +3,9 @@ sz ="Ha itt a nyár, ugye komám, a szív a víznek szalutál és vígan lépked
 
 #1.feladat:
 
-print(len(sz))
+result = len(sz.split())
+
+print("Ennyi szó van : " + str(result))
 
 #2.feladat:
 
@@ -16,8 +18,19 @@ print(ho)
 
 #4.feladat:
 
+print("Található-e szám szövegben?")
 
+#szam = []
 
+#for i in sz:
+    #elif
+szam = []
+for i in sz.split():
+   if i.isdigit():
+      szam.append(int(z))    
+else:
+    print("Nem találhátó szám a szövegben.")          
+    
 #5.feladat:
 
 
