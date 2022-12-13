@@ -20,25 +20,22 @@ print(ho)
 
 print("Található-e szám szövegben?")
 
-#szam = []
-
-#for i in sz:
-    #elif
-szam = []
-for i in sz.split():
-   if i.isdigit():
-      szam.append(int(z))    
-else:
-    print("Nem találhátó szám a szövegben.")          
+emp_str = ""
+for m in sz:
+    if m.isdigit():    
+        emp_str = emp_str + m
+print("Nincs benne",emp_str) 
     
 #5.feladat:
 
+mh = 0
+ms = 0
 
+mondat = input(sz)
+mah='AEIOUaeiou'
 
-
-
-
-
-
-
-
+for i in mh:
+    if i in mah:
+        mh+=1
+    else:
+        ms+=1
